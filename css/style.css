@@ -3,10 +3,15 @@
 #wrap{
 	display: flex;
 	width: 1020px;
-	height: 2000px;
+	height: 1000px;
 	margin: 0 auto;
 	font-family: 'Pretendard-Regular';
  }
+
+section{
+	width: 800px;
+	height: 1500px;
+}
 
 header{
 	display: block;
@@ -15,7 +20,7 @@ header{
 
 .mnu{
 	width: 200px;
-	height: 2000px;
+	height: 1700px;
 	background-color: #020202;
 }
 
@@ -228,4 +233,92 @@ main>section>.introduce>p.goal{
 	color: #9ea0a0;
 	font-weight: 600;
 	font-size: 80px;
+}
+
+.line-2{
+	position: relative;
+	margin-top: 120px;
+	left: 150px;
+	width: 500px;
+	height: 1px;
+	box-shadow: 1px 1px 3px;
+}
+
+.comment-3{
+	width: 200px;
+	height: 50px;
+	margin: 50px auto;
+	text-align: center;
+	background-color: gray;
+	border-radius: 3%;
+	z-index: 200;
+}
+
+.comment-3>p{
+	padding-top: 10px;
+	color: white;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.skills{
+	display: block;
+	position: relative;
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.html,.java,.javascript,.reactjs,.jquery{
+	position: absolute;
+}
+
+.html{
+	top: 20px;
+	left: 50px;
+	color: #36d6ba;
+	font-size: 30px;
+}
+
+.java{
+	top: 150px;
+	left: 180px;
+	color: #dadfd3;
+	font-size: 70px;
+}
+
+.javascript{
+	top: 250px;
+	left: 400px;
+	color: #dadfd3;
+	font-size: 40px;
+}
+
+.reactjs{
+	top: 50px;
+	left: 440px;
+	color: #38caf1;
+	font-size: 50px;
+}
+
+.jquery{
+	top: 100px;
+	left: 150px;
+	color: #f99c57;
+	font-size: 20px;
+}
+
+footer>address{
+	display: block;
+	overflow: hidden;
+	width: 800px;
+	height: 200px;
+	color: white;
+	font-size: 16px;
+	text-align: right;
+	background-image: url(./../images/html.jpg);
+	background-repeat: no-repeat;
+
 }
